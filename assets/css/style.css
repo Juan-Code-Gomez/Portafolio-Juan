@@ -1,3 +1,10 @@
 body{
     background-image: radial-gradient(circle at 120.71% 50%, #ff70ff 0, #d562ff 16.67%, #8f50ff 33.33%, #3c3cf2 50%, #0028c1 66.67%, #001995 83.33%, #00006d 100%);
 }
+.mensaje p{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: white;
+}
