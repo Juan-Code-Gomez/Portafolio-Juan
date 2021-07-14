@@ -45,4 +45,26 @@ body{
 }
 .foto{
     float: right;
+    margin-right: 300px;
+
+}
+.mensaje{
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 60%;
+}
+.informacion{
+    margin-top: 100px;
+    margin-left: 230px;
+    width: 50%;
+}
+.principal{
+    width: 100%;
+}
+.info-herramientas{
+    margin-top: 380px;
+    margin-left: 850px;
+}
+.iconos{
+    width: 50%;
 }
