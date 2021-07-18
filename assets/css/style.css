@@ -22,11 +22,15 @@ body{
     line-height: 20.4px;
     color: white;
 }
-#menuprincipal{
-    width: 96%;
-    height: 50px;
-    padding: 0% 2%;
 
+#menuprincipal{
+    width: 60%;
+    height: 60px;
+    padding: 0% 2%;
+    margin-left: 400px;
+}
+.logo{
+    margin-right: 240px;
 }
 #menuprincipal li{
     font-family: Verdana, Geneva, sans-serif;
@@ -34,7 +38,7 @@ body{
     display: inline-block;
     height: 35px;
     padding: 15px 10px 0px 10px;
-    margin-right: 5px;
+    margin-right: 50px;
 }
 #menuprincipal li:hover{
     background-color: rgba(34, 37, 206, 0.548);
@@ -42,18 +46,21 @@ body{
 #menuprincipal a{
     color: white;
     text-decoration: none;
+
 }
 .foto{
     float: right;
-    margin-right: 300px;
-
+    margin-right: 200px;
+    margin-top: -230px;
 }
 .mensaje{
+
     margin-top: 200px;
     margin-left: 200px;
-    width: 60%;
+    width: 55%;
 }
 .informacion{
+
     margin-top: 100px;
     margin-left: 230px;
     width: 50%;
@@ -62,9 +69,18 @@ body{
     width: 100%;
 }
 .info-herramientas{
-    margin-top: 380px;
+    margin-top: 320px;
     margin-left: 850px;
+
 }
 .iconos{
+    margin-top: 100px;
+    margin-left: 560px;
+    color: white;
     width: 50%;
 }
+
+.imagen{
+    border-radius: 50%;
+}
+
