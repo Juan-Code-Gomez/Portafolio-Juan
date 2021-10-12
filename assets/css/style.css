@@ -1,128 +1,133 @@
-body{
-    margin:0;
-    padding:0;
-    background-image: radial-gradient(circle at 120.71% 50%, #ff70ff 0, #d562ff 16.67%, #8f50ff 33.33%, #3c3cf2 50%, #0028c1 66.67%, #001995 83.33%, #00006d 100%);
+body {
+  margin: 0;
+  padding: 0;
+  background-image: radial-gradient(
+    circle at 120.71% 50%,
+    #ff70ff 0,
+    #d562ff 16.67%,
+    #8f50ff 33.33%,
+    #3c3cf2 50%,
+    #0028c1 66.67%,
+    #001995 83.33%,
+    #00006d 100%
+  );
 }
-.mensaje p{
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 44px;
-    font-weight: 700;
-    line-height: 26.4px;
-    color: white;
+.mensaje p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: white;
 }
-.informacion p{
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 18px;
-    font-weight: 680;
-    line-height: 20.4px;
-    color: white;
+.informacion p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: 680;
+  line-height: 20.4px;
+  color: white;
 }
-.info-herramientas p{
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 18px;
-    font-weight: 680;
-    line-height: 20.4px;
-    color: white;
-}
-
-#menuprincipal{
-    width: 65%;
-    height: 60px;
-    padding: 0% 2%;
-    margin-left: 400px;
-}
-.logo{
-    margin-right: 240px;
-}
-#menuprincipal li{
-    font-family: Verdana, Geneva, sans-serif;
-    color: white;
-    display: inline-block;
-    height: 35px;
-    padding: 15px 10px 0px 10px;
-    margin-right: 50px;
-}
-#menuprincipal li:hover{
-    background-color: rgba(34, 37, 206, 0.548);
-}
-#menuprincipal a{
-    color: white;
-    text-decoration: none;
-
-}
-.foto{
-    float: right;
-    margin-right: 200px;
-    margin-top: -230px;
-}
-.mensaje{
-
-    margin-top: 200px;
-    margin-left: 200px;
-    width: 55%;
-}
-.informacion{
-
-    margin-top: 100px;
-    margin-left: 230px;
-    width: 50%;
-}
-.principal{
-    width: 100%;
-}
-.info-herramientas{
-    text-align: center;
-    margin-top: 250px;
-    margin-left: 5px;
-
-}
-.info-herramientas img{
-    margin-top: 10px;
-    margin-left: -65px;
-}
-.iconos{
-    margin-top: 100px;
-    margin-left: 560px;
-    color: white;
-    width: 50%;
+.info-herramientas p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: 680;
+  line-height: 20.4px;
+  color: white;
 }
 
-.imagen{
-    border-radius: 50%;
+#menuprincipal {
+  width: 65%;
+  height: 60px;
+  padding: 0% 2%;
+  margin-left: 400px;
 }
-.iconos img{
-    margin-left: 10px;
+.logo {
+  margin-right: 240px;
 }
-h2{
-    text-align: center;
+#menuprincipal li {
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  display: inline-block;
+  height: 35px;
+  padding: 15px 10px 0px 10px;
+  margin-right: 50px;
 }
-.herramientas{
-    width:100%;
-    background-color: rgb(255, 255, 255);
+#menuprincipal li:hover {
+  background-color: rgba(34, 37, 206, 0.548);
+}
+#menuprincipal a {
+  color: white;
+  text-decoration: none;
+}
+.foto {
+  float: right;
+  margin-right: 200px;
+  margin-top: -230px;
+}
+.mensaje {
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 55%;
+}
+.informacion {
+  margin-top: 100px;
+  margin-left: 230px;
+  width: 50%;
+}
+.principal {
+  width: 100%;
+}
+.info-herramientas {
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 5px;
+}
+.info-herramientas img {
+  margin-top: 10px;
+  margin-left: -65px;
+}
+.iconos {
+  margin-top: 100px;
+  margin-left: 560px;
+  color: white;
+  width: 50%;
 }
 
-.herramientas h2{
-    margin-top: 20px;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 50px;
+.imagen {
+  border-radius: 50%;
+}
+.iconos img {
+  margin-left: 10px;
+}
+h2 {
+  text-align: center;
+}
+.herramientas {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.herramientas h2 {
+  margin-top: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 50px;
 }
 
 /**Estilos para los cards **/
-.container{
-    background-color: rgb(253, 252, 252);
-    height: 50vh;
-    width: 50vw;
-    max-height: 800px;
-    max-width: 1280px;
-    min-height: 600px;
-    min-width: 1000px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    margin: 0 auto;
-    position: relative;
+.container {
+  background-color: rgb(253, 252, 252);
+  height: 50vh;
+  width: 50vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
 }
-.border{
+.border {
   height: 369px;
   width: 290px;
   background: transparent;
@@ -130,33 +135,258 @@ h2{
   position: relative;
   border: 1px solid white;
 }
-.card{
-    height: 379px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 70px 63px -60px #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    transition: 0.3s all ease-in-out;
+.card {
+  height: 379px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.3s all ease-in-out;
 }
-.card:hover{
-    margin-top:-10px;
+.card:hover {
+  margin-top: -10px;
 }
-.card p{
-    text-align:end;
+.card p {
+  text-align: end;
 }
-.card img{
-margin-top: 50px;
-margin-left: 30px;
+.card img {
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
-.parrafo-herramientas{
-    text-align: center;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 18px;
-    font-weight: 680;
-    line-height: 20.4px;
+.parrafo-herramientas {
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: 680;
+  line-height: 20.4px;
+}
+
+#proyectos h2 {
+  margin-top: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 50px;
+}
+
+#proyectos p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: 680;
+  line-height: 20.4px;
+  color: white;
+  text-align: center;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+h5 {
+  margin: 0;
+  font-weight: 600;
+}
+.footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+.footer-distributed{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
 }
 
