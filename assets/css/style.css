@@ -195,6 +195,7 @@ h5 {
   font-weight: 600;
 }
 .footer-distributed{
+  margin-top: 150px;
 	background: #444;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -251,7 +252,7 @@ h5 {
 }
 
 .footer-distributed .footer-icons{
-	margin-top: 40px;
+	margin-top: 110px;
 }
 .footer-distributed .footer-icons a{
 	display: inline-block;
@@ -270,8 +271,10 @@ h5 {
 	margin-bottom: 5px;
 }
 
-.footer-distributed .footer-right{
-	float: right;
+.footer-distributed .footer-center{
+  float: right;
+  display: inline-flex;
+  margin-right: 400px;
 }
 
 .footer-distributed .footer-right p{
