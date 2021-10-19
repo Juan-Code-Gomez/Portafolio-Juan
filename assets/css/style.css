@@ -12,6 +12,17 @@ body {
     #00006d 100%
   );
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .mensaje p {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 44px;
@@ -41,7 +52,8 @@ body {
   margin-left: 400px;
 }
 .logo {
-  margin-right: 240px;
+margin-bottom: 20px;
+  margin-right: 140px;
 }
 #menuprincipal li {
   font-family: Verdana, Geneva, sans-serif;
